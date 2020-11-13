@@ -1,0 +1,88 @@
+.post-box {
+    margin: 20px;
+    background-color: #282828;
+    border: purple 4px solid;
+    border-radius: 15px; width: auto;
+    box-shadow: 0 0 20px #000000;
+}
+.post-description-box {
+    word-wrap: break-word;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000000;
+}
+.post-description-box p {
+    padding: 10px;
+}
+.post-image {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.add-comment-button {
+    display:inline-block;
+    vertical-align:middle;
+}
+.comment-form-box {
+    margin-bottom: 15px;
+}
+.like-button {
+    width: 40px;
+}
+.comments-box {
+    margin-bottom: 15px;
+    display: none;
+}
+.comment-textarea {
+    display:inline-block;
+    vertical-align:middle;
+    background-color: #646464;
+    border-radius: 15px;
+    width: 300px;
+    margin-top: 10px;
+}
+.comment-box {
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+.comment-text-box {
+    word-wrap: break-word;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000000;
+}
+.post-upper-side-box {
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-link-box {
+    width: 150px;
+    margin: 30px 5px 5px 5px;
+}
+.user-link-box img {
+    width: 50px;
+    height: 50px;
+    border: solid 2px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-link-box a {
+    font-size: 15px;
+}
+.edit-box {
+    text-align: center;
+    width: 145px;
+    margin-top: 30px;
+}
+.edit-box button, a {
+    width: 80px;
+    margin: 3px;
+}
+.edit-options-box {
+    background: #141414;
+    border-radius: 5px;
+}
